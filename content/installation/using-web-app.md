@@ -1,7 +1,7 @@
 ---
 title: Using web app
 date: 2019-08-05T12:26:05.432Z
-thumbnail: /images/uploads/watchlist_devices.png
+images: /images/uploads/watchlist_devices.png
 ---
 ### Add Monitors in Distill Web App
 
