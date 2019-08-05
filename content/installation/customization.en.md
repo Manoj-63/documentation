@@ -1,12 +1,9 @@
 ---
-title: "Customization"
-date: 2018-12-29T11:02:05+06:00
-type: "post"
-author: "Somrat"
+title: Customization
+date: 2019-08-05T12:02:00.000Z
+thumbnail: /images/uploads/bookmarklet.gif
 ---
-
 **Doc-List** has been built to be as configurable as possible.
-
 
 ### Change the logo
 
@@ -17,6 +14,10 @@ The size of the logo will adapt automatically
 </div>
 
 ### Change the favicon
+
+
+
+![Anonymous](/images/uploads/anonymous.png "Anonymous")
 
 If your favicon is a png, just drop off your image in your local `static/images/` folder and name it `favicon.png`
 
@@ -29,7 +30,6 @@ If you need to change this default behavior, create a new file in `layouts/parti
 ### Change default colors
 
 **Doc-List** support change color. You can change the colors from `config.toml`. You can change the colors of the template as you want.
-
 
 ```toml
 [params]
