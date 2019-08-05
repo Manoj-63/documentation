@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://fervent-hawking-fe677a.netlify.com/"
 theme = "dot"
 
 [params]
