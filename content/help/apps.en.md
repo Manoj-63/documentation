@@ -10,11 +10,11 @@ Distill is available on the following platforms:
 
 -   Browser Extensions: All monitored webpages are checked for changes using the browser. When using an extension, browser and PC must be kept open and running for checks to be performed.
     
-    -   [Chrome](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge "https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge")
+    *   [Chrome](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge "https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge")
         
-    -   [Firefox](https://addons.mozilla.org/en-us/firefox/addon/alertbox/ "https://addons.mozilla.org/en-us/firefox/addon/alertbox/")
+    *   [Firefox](https://addons.mozilla.org/en-us/firefox/addon/alertbox/ "https://addons.mozilla.org/en-us/firefox/addon/alertbox/")
         
-    -   [Opera](https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en "https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en")
+    *   [Opera](https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en "https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en")
         
 -   [Web App](https://distill.io/ "https://distill.io/"): All monitored webpage are saved and checked for changes 24×7 in cloud. One doesn't need to keep the browser open for monitors to work.
     
@@ -23,7 +23,7 @@ Distill is available on the following platforms:
 
 ### Installation
 
-To use browser extensio, click on the link of add-on for your browser given above. This should take you to the store for that browser. You will have to click on “Add to —– (your browser name)” to install Distill. Check the guide to get help adding the first monitor.
+To use browser extension, click on the link of add-on for your browser given above. This should take you to the store for that browser. You will have to click on “Add to —– (your browser name)” to install Distill. Check the guide to get help adding the first monitor.
 
 To use the Web App, one needs to  [signup](https://distill.io/register "https://distill.io/register"). Refer to this guide to get started with your first monitor.
 
