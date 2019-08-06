@@ -54,6 +54,7 @@
         <div class="p-5 bg-white">
             <h2>{{ .Title }}</h2>
             {{ .Content }}
+            </br>
             <p class="post-meta border-bottom pb-3 mb-0">Updated on {{ .PublishDate.Format "02 Jan 2006" }}</p>
             {{- $currentNode := . -}}
             <nav class="pagination mt-3">
