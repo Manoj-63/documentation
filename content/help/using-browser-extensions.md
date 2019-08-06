@@ -13,5 +13,3 @@ Checkout following links to see the steps for your browser:
 * [Chrome extension](https://distill.io/help/gettingstarted/chrome "gettingstarted:chrome")
 * [Firefox add-on](https://distill.io/help/gettingstarted/firefox "gettingstarted:firefox")
 * [Opera add-on](https://distill.io/help/gettingstarted/opera "gettingstarted:opera")
-
-![](/images/uploads/watchlist_devices.png)
