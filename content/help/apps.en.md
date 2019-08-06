@@ -10,10 +10,12 @@ Distill is available on the following platforms:
 
 * Browser Extensions: All monitored webpages are checked for changes using the browser. When using an extension, browser and PC must be kept open and running for checks to be performed.
 
-\- \[Chrome](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge "https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge")    
-- \[Firefox](https://addons.mozilla.org/en-us/firefox/addon/alertbox/ "https://addons.mozilla.org/en-us/firefox/addon/alertbox/")    
-- \[Opera](https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en "https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en")
-    
+
+
+1. \[Chrome](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge "https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge")    
+2. \[Firefox](https://addons.mozilla.org/en-us/firefox/addon/alertbox/ "https://addons.mozilla.org/en-us/firefox/addon/alertbox/")    
+3. \[Opera](https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en "https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en")
+     
 
 * [Web App](https://distill.io/ "https\://distill.io/"): All monitored webpage are saved and checked for changes 24×7 in cloud. One doesn't need to keep the browser open for monitors to work.
 * Android and iOS apps (undergoing beta tests)
