@@ -19,7 +19,6 @@ collections:
       - {label: "Featured Image", name: "images", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-collections:
   - name: "help" # Used in routes, e.g., /admin/collections/blog
     label: "Help" # Used in the UI
     folder: "content/help" # The path to the folder where the documents are stored
