@@ -60,8 +60,8 @@ whiteColor = "#ffffff"
 
           [[Languages.en.menu.main]]
           parent = "pages"
-          name = "Features"
-          url = "features"
+          name = "Help"
+          url = "help"
           weight = 4
 
 
