@@ -9,6 +9,8 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 slug:
   encoding: "unicode"
+  clean_accents: true
+  sanitize_replacement: "."
 
 collections:
   - name: "installation" # Used in routes, e.g., /admin/collections/blog
