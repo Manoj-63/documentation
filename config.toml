@@ -115,8 +115,8 @@ whiteColor = "#ffffff"
   languageCode = "fr-fr"
   title = "Distill"
   dateFormat = "2 January 2006"
-  home = "Aidez-moi"
-  logo = "Distill"
+  home = "Accueil"
+  logo = "Distill.io"
   copyright = "Les documents Hugo sont sous copyright © gethugothemes 2018."
 
     # navigation
