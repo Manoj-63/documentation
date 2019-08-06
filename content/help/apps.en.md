@@ -20,7 +20,7 @@ Distill is available on the following platforms:
 
 ### Installation
 
-To use browser extensio, click on the link of add-on for your browser given above. This should take you to the store for that browser. You will have to click on “Add to —– (your browser name)” to install Distill. Check the guide to get help adding the first monitor.
+To use browser extension, click on the link of add-on for your browser given above. This should take you to the store for that browser. You will have to click on “Add to —– (your browser name)” to install Distill. Check the guide to get help adding the first monitor.
 
 To use the Web App, one needs to  [signup](https://distill.io/register "https\://distill.io/register"). Refer to this guide to get started with your first monitor.
 
