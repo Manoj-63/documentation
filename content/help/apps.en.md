@@ -10,13 +10,10 @@ Distill is available on the following platforms:
 
 * Browser Extensions: All monitored webpages are checked for changes using the browser. When using an extension, browser and PC must be kept open and running for checks to be performed.
 
-
-```
-- [Chrome](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge "https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge")    
-- [Firefox](https://addons.mozilla.org/en-us/firefox/addon/alertbox/ "https://addons.mozilla.org/en-us/firefox/addon/alertbox/")    
-- [Opera](https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en "https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en")
+\- \[Chrome](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge "https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge")    
+- \[Firefox](https://addons.mozilla.org/en-us/firefox/addon/alertbox/ "https://addons.mozilla.org/en-us/firefox/addon/alertbox/")    
+- \[Opera](https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en "https://addons.opera.com/en/extensions/details/distill-web-monitor/?display=en")
     
-```
 
 * [Web App](https://distill.io/ "https\://distill.io/"): All monitored webpage are saved and checked for changes 24×7 in cloud. One doesn't need to keep the browser open for monitors to work.
 * Android and iOS apps (undergoing beta tests)
@@ -38,9 +35,3 @@ Note that by default, monitors in browser are stored in your browser's settings 
 The minimum check interval allowed for the Web app is 2 minutes (Flexi plan) while 5 seconds for the browser add-on.
 
 See  [Plans & pricing](https://distill.io/pricing "https\://distill.io/pricing")  to compare various Distill plans.
-
-Checkout following links to see the steps for your browser:
-
-* [Chrome extension](https://distill.io/help/gettingstarted/chrome "gettingstarted:chrome")
-* [Firefox add-on](https://distill.io/help/gettingstarted/firefox "gettingstarted:firefox")
-* [Opera add-on](https://distill.io/help/gettingstarted/opera "gettingstarted:opera")
