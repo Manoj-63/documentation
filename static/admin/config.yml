@@ -13,20 +13,35 @@ slug:
   sanitize_replacement: "."
 
 collections:
-  - name: "installation" # Used in routes, e.g., /admin/collections/blog
-    label: "Installation" # Used in the UI
-    folder: "content/installation" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "images", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "help" # Used in routes, e.g., /admin/collections/blog
     label: "Help" # Used in the UI
     folder: "content/help" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
+      - {label: "Weight", name: "weight", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "use-cases" # Used in routes, e.g., /admin/collections/blog
+    label: "Use Cases/How To?" # Used in the UI
+    folder: "content/use-cases" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
+      - {label: "Weight", name: "weight", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "guides" # Used in routes, e.g., /admin/collections/blog
+    label: "Guides" # Used in the UI
+    folder: "content/guides" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
     fields: # The fields for each document, usually in front matter
