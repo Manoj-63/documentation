@@ -23,7 +23,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "use-cases" # Used in routes, e.g., /admin/collections/blog
@@ -36,12 +36,13 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "guides" # Used in routes, e.g., /admin/collections/blog
-    label: "Guides" # Used in the UI
+    label: "Guides - English" # Used in the UI
     folder: "content/guides" # The path to the folder where the documents are stored
+    filter: {field: "language", value: "en"}
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
     fields: # The fields for each document, usually in front matter
@@ -49,5 +50,18 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "guides" # Used in routes, e.g., /admin/collections/blog
+    label: "Guides - French" # Used in the UI
+    folder: "content/guides" # The path to the folder where the documents are stored
+    filter: {field: "language", value: "fr"}
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
+      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
