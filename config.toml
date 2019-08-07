@@ -180,8 +180,7 @@ whiteColor = "#ffffff"
     # banner
     [Languages.es.params.banner]
       title = "Centro de soporte y base de conocimiento"
-      description = "
-Encuentre consejos y respuestas de nuestro equipo de soporte rápidamente o póngase en contacto."
+      description = "Encuentre consejos y respuestas de nuestro equipo de soporte rápidamente o póngase en contacto."
       image = "images/banner.jpg"
       placeholder = "¿Tengo una pregunta? Solo pregunte aquí o ingrese los términos"
 
