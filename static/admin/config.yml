@@ -74,6 +74,7 @@ collections:
         file: "data/en/faq.yml"
         fields:
           - {label: "Body", name: "body", widget: "markdown"}
+          
       - label: "FAQ - French"
         name: "about"
         file: "data/fr/faq.yml"
