@@ -33,39 +33,11 @@ whiteColor = "#ffffff"
         weight = 2
         name = "blog"
         url = "blog"
-        hasChildren = true
-
-          [[Languages.en.menu.main]]
-          parent = "blog"
-          name = "Elements"
-          url = "elements"
-          weight = 1
-
-          [[Languages.en.menu.main]]
-          parent = "blog"
-          name = "Installation"
-          url = "installation"
-          weight = 2
-
-          [[Languages.en.menu.main]]
-          parent = "blog"
-          name = "Billing and Pricing"
-          url = "billing-pricing"
-          weight = 3
-
-          [[Languages.en.menu.main]]
-          parent = "blog"
-          name = "Help"
-          url = "help"
-          weight = 4
 
       [[Languages.en.menu.main]]
         weight = 2
         name = "contact"
         url = "contact"
-
-
-
 
     # banner
     [Languages.en.params.banner]
@@ -130,25 +102,6 @@ whiteColor = "#ffffff"
       [[Languages.fr.menu.main]]
         weight = 2
         name = "blog"
-        hasChildren = true
-
-          [[Languages.fr.menu.main]]
-          parent = "blog"
-          name = "Commencer"
-          url = "fr/installation"
-          weight = 2
-
-          [[Languages.fr.menu.main]]
-          parent = "blog"
-          name = "Compte et facturation"
-          url = "fr/billing-pricing"
-          weight = 3
-
-          [[Languages.fr.menu.main]]
-          parent = "blog"
-          name = "Dépannage"
-          url = "fr/features"
-          weight = 4
 
       [[Languages.fr.menu.main]]
         weight = 2
