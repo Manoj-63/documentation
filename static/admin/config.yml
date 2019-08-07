@@ -65,3 +65,17 @@ collections:
       - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
       - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "FAQ - English"
+        name: "about"
+        file: "data/en/faq.yml"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "FAQ - French"
+        name: "about"
+        file: "data/fr/faq.yml"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
