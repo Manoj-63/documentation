@@ -73,7 +73,7 @@ collections:
         name: "FAQ_en"
         file: "data/en/faq.yml"
         fields:
-          - {label: "ID", name: "ID", widget: "string"}
+          - {label: "- ID", name: "ID", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "content", widget: "text"}
       - label: "FAQ - French"
