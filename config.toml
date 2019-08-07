@@ -89,7 +89,7 @@ whiteColor = "#ffffff"
   dateFormat = "2 January 2006"
   home = "Accueil"
   logo = "Distill.io"
-  copyright = "Les documents Hugo sont sous copyright © gethugothemes 2018."
+  copyright = "© Tous droits réservés Neemb LLC."
 
     # navigation
     [Languages.fr.menu]
@@ -102,6 +102,7 @@ whiteColor = "#ffffff"
       [[Languages.fr.menu.main]]
         weight = 2
         name = "blog"
+        url = "fr/blog"
 
       [[Languages.fr.menu.main]]
         weight = 2
@@ -135,16 +136,81 @@ whiteColor = "#ffffff"
     # footer social icon
     [[Languages.fr.socialIcon]]
       icon = "ti-facebook"
-      linkURL = "#"
+      linkURL = "https://www.facebook.com/distillweb"
 
     [[Languages.fr.socialIcon]]
       icon = "ti-twitter-alt"
-      linkURL = "#"
+      linkURL = "https://twitter.com/distill_io"
       
     [[Languages.fr.socialIcon]]
-      icon = "ti-vimeo-alt"
-      linkURL = "#"
+      icon = "ti-youtube"
+      linkURL = "https://www.youtube.com/channel/UCHqGo63bhz58zxMUvf-I5LA"
+
+
+
+  # Spanish Language
+  [Languages.es]
+  languageName = "es"
+  weight = 1
+  languageCode = "es"
+  title = "Distill"
+  dateFormat = "2 January 2006"
+  home = "Casa"
+  logo = "Distill.io"
+  copyright = "© Todos los derechos reservados Neemb LLC"
+
+    # navigation
+    [Languages.es.menu]
+    
+      [[Languages.es.menu.main]]
+        weight = 2
+        name = "Faq"
+        url = "es/faq"
+
+      [[Languages.es.menu.main]]
+        weight = 2
+        name = "blog"
+        url = "es/blog"
+
+      [[Languages.es.menu.main]]
+        weight = 2
+        name = "contact"
+        url = "es/contact"
+
+    # banner
+    [Languages.es.params.banner]
+      title = "Centro de soporte y base de conocimiento"
+      description = "
+Encuentre consejos y respuestas de nuestro equipo de soporte rápidamente o póngase en contacto."
+      image = "images/banner.jpg"
+      placeholder = "¿Tengo una pregunta? Solo pregunte aquí o ingrese los términos"
+
+    # pages
+    [Languages.es.params.pages]
+      title = "Encuentra tu respuesta por tema"
+    
+    # call to action
+    [Languages.es.params.cta]
+      enable = true
+      title = "¿No encontró una respuesta a su pregunta?"
+      description = "No dude en comunicarse con nosotros en cualquier momento."
+      btnText = "Contáctenos"
+      btnURL = "es/contact/"
+
+    # contact
+    [Languages.es.params.contact]
+      title = "Tengo alguna pregunta"
+      content = "Envíe el formulario y confirme su dirección de correo electrónico en Formspree. Luego agregue las siguientes líneas a la página de contacto YAML Front Matter."
+
+    # footer social icon
+    [[Languages.es.socialIcon]]
+      icon = "ti-facebook"
+      linkURL = "https://www.facebook.com/distillweb"
+
+    [[Languages.es.socialIcon]]
+      icon = "ti-twitter-alt"
+      linkURL = "https://twitter.com/distill_io"
       
-    [[Languages.fr.socialIcon]]
-      icon = "ti-instagram"
-      linkURL = "#"
+    [[Languages.es.socialIcon]]
+      icon = "ti-youtube"
+      linkURL = "https://www.youtube.com/channel/UCHqGo63bhz58zxMUvf-I5LA"
