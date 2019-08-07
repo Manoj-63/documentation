@@ -28,4 +28,4 @@ When a change is detected for a synced monitor, it make take a little time to sy
 
 From the browser extension Watchlist, you can check if the monitors are synced or not. The blue vertical bar at the end of monitor in Watchlist shows it is not synced. Absence of blue vertical bar shows the monitor is synced.
 
-[![Synced and non synced monitors](https://distill.io/help/_media/non_synced_monitors.png?w=150&tok=4e1a9b "Synced and non synced monitors")](https://distill.io/help/_detail/non_synced_monitors.png?id=sync "non_synced_monitors.png =150x")
+[![Synced and non synced monitors](https://distill.io/help/_media/non_synced_monitors.png?w=150&tok=4e1a9b "Synced and non synced monitors")](https://distill.io/help/_detail/non_synced_monitors.png?id=sync "non_synced_monitors.png"){ width=50% }
