@@ -69,13 +69,16 @@ collections:
   - name: "faq"
     label: "FAQ"
     files:
-      - label: "FAQ - English"
-        name: "FAQ_en"
+      - label: faqItem
+        name: faqItem
         file: "data/en/faq.yml"
+        widget: list
         fields:
-          - {label: "- ID", name: "ID", widget: "string"}
+          - {label: "ID", name: "ID", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "content", widget: "text"}
+
+
       - label: "FAQ - French"
         name: "FAQ_fr"
         file: "data/fr/faq.yml"
