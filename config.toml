@@ -150,7 +150,7 @@ whiteColor = "#ffffff"
 
   # Spanish Language
   [Languages.es]
-  languageName = "es"
+  languageName = "Es"
   weight = 1
   languageCode = "es"
   title = "Distill"
