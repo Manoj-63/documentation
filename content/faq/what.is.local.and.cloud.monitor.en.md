@@ -11,7 +11,7 @@ Monitors added through Web app are called cloud monitors. These are stored and a
 
 When  [sync](https://distill.io/help/sync "sync")  is enabled for your account, you can view all your monitors from any device, irrespective of device the monitor is running on. You can also change the device that a monitor runs on. In the following image, sync is enabled and it shows all monitors in one account running in Chrome, Firefox and Web App:
 
-[![Expand or contract selection in Visual Selector - Distill Web Monitor](https://distill.io/help/_media/device_running_on.png?w=800&tok=967766 "Expand or contract selection in Visual Selector - Distill Web Monitor")](https://distill.io/help/_media/device_running_on.png "device_running_on.png")
+![Devices - Distill Web Monitor](/images/uploads/device_running_on.png "Devices - Distill Web Monitor")
 
 Note that 3 monitors are running on the current device (computer icon), 1 in Web app (cloud icon), 1 in Firefox and 1 in another Chrome device.
 
