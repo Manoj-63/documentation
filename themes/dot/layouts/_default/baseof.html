@@ -24,6 +24,7 @@
         {{ end }}
         <div id="content">
         {{- block "main" . }}{{- end }}
+        {{ partial "table-of-contents" . }}
         </div>
         {{- partial "footer.html" . -}}
 
