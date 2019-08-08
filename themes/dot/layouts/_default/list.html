@@ -55,10 +55,9 @@
               <h4 class="mb-4">{{ .Title }}</h4>
             </a>
             <ul class="list-styled">
-              <!-- {{ range .Data.Pages }}
-              <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-              {{ end }} -->
-              {{ partial "table-of-contents" . }}
+              {{ range .Data.Pages }}
+              <li><a href="{{ .Permalink }}">{{ partial "table-of-contents" . }}</a></li>
+              {{ end }}
             </ul>
           </div>
         </div>
