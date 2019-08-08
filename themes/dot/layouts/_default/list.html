@@ -56,6 +56,7 @@
             </a>
             <ul class="list-styled">
               {{ range .Data.Pages }}
+              <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
               <li><a href="{{ .Permalink }}">{{ partial "table-of-contents" . }}</a></li>
               {{ end }}
             </ul>
