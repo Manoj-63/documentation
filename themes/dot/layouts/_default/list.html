@@ -68,7 +68,7 @@
                   <!-- <h3 class="mt-0">{{if .Language.Params.articlesLabel }} {{ .Language.Params.articlesLabel }} {{ else }} "Articles" {{ end }}</h3> -->
                   <ul class="list-unstyled">
                     {{ range .Data.Pages }}
-                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    <li><a href="{{ .Permalink }}">{{ .TableOfContents }}</a></li>
                     {{ end }}
                   </ul>
               </div>
