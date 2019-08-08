@@ -5,8 +5,6 @@ date: 2019-08-08T12:31:39.972Z
 author: Manoj
 weight: 1
 ---
-### What is sync?
-
 Sync lets you synchronization data across different devices. You no longer need to worry about data loss as your Watchlist is safely saved to your account in cloud. You can access your Watchlist anytime from the web at  [https://distill.io/inbox](https://distill.io/inbox "https\://distill.io/inbox").
 
 When sync is on, you will be able to see monitored pages and device names that manage the monitors. Note that sync only synchronizes data. A check is only performed on the device that a monitor is set to run on.
