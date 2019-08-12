@@ -26,160 +26,52 @@ collections:
       - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "how-to_en" # Used in routes, e.g., /admin/collections/blog
-    label: "How To - English" # Used in the UI
+  - name: "how-to" # Used in routes, e.g., /admin/collections/blog
+    label: "How To" # Used in the UI
     folder: "content/how-to" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "en"}
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
     fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["en"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "how-to_fr" # Used in routes, e.g., /admin/collections/blog
-    label: "How To - French" # Used in the UI
-    folder: "content/how-to" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "fr"}
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["fr"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "how-to_es" # Used in routes, e.g., /admin/collections/blog
-    label: "How To - Spanish" # Used in the UI
-    folder: "content/how-to" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "es"}
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["es"]}
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
       - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "faq_en" # Used in routes, e.g., /admin/collections/blog
-    label: "FAQ - English" # Used in the UI
+  - name: "faq" # Used in routes, e.g., /admin/collections/blog
+    label: "FAQ" # Used in the UI
     folder: "content/faq" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "en"}
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
     fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["en"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "faq_fr" # Used in routes, e.g., /admin/collections/blog
-    label: "FAQ - French" # Used in the UI
-    folder: "content/faq" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "fr"}
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["fr"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "faq_es" # Used in routes, e.g., /admin/collections/blog
-    label: "FAQ - Spanish" # Used in the UI
-    folder: "content/faq" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "es"}
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["es"]}
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
       - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "blog_en" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog - English" # Used in the UI
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
     folder: "content/blog" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "en"}
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
     fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["en"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "blog_fr" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog - French" # Used in the UI
-    folder: "content/blog" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "fr"}
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["fr"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "blog_es" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog - Spanish" # Used in the UI
-    folder: "content/blog" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "es"}
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["es"]}
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
       - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "guides_en" # Used in routes, e.g., /admin/collections/blog
-    label: "Guides - English" # Used in the UI
+  - name: "guides" # Used in routes, e.g., /admin/collections/blog
+    label: "Guides" # Used in the UI
     folder: "content/guides" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "en"}
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
     fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["en"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "guides_fr" # Used in routes, e.g., /admin/collections/blog
-    label: "Guides - French" # Used in the UI
-    folder: "content/guides" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "fr"}
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["fr"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
-      - {label: "Weight", name: "weight", widget: "number", valueType: "int"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "guides_es" # Used in routes, e.g., /admin/collections/blog
-    label: "Guides - Spanish" # Used in the UI
-    folder: "content/guides" # The path to the folder where the documents are stored
-    filter: {field: "language", value: "es"}
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
-    fields: # The fields for each document, usually in front matter
-      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"], default: ["es"]}
+      - {label: "Language", name: "language", widget: "select", options: ["en", "fr", "es"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "select", options: ["Ajit", "Raksha", "Tarun", "Manoj"]}
