@@ -12,7 +12,16 @@
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="{{ .Permalink }}" class="px-4 py-5 bg-white shadow text-center d-block">
                 <i class="{{ .Params.Icon }} icon text-dark d-block mb-4"></i>
-                <h3 class="mb-3" style="margin: 0 !important;">{{ split .Title " > " }}</h3>
+
+                <script>
+                  $(function() {
+                    var fruits = {{ split .Title " > " }};
+                    var citrus = fruits.slice(1);
+                    document.getElementById("demo").innerHTML = citrus;
+                  });
+                </script>
+
+                <h3 id="demo" class="mb-3" style="margin: 0 !important;"></h3>
                 <!-- <p class="mb-0">{{ .Params.Description }}</p> -->
               </a>
             </div>
