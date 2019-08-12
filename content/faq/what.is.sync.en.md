@@ -1,6 +1,6 @@
 ---
 language: en
-title: What is sync?
+title: English > What is sync?
 date: 2019-08-08T12:31:39.972Z
 author: Manoj
 weight: 1
