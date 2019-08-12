@@ -15,7 +15,6 @@ slug:
 collections:
   - name: "help" # Used in routes, e.g., /admin/collections/blog
     label: "Help" # Used in the UI
-    description: "optional text, displayed below the label when viewing a collection"
     folder: "content/help" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}+{{language}}" # Filename template, !!! '+' will be replaced by '.'
