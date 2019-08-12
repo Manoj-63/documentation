@@ -12,8 +12,7 @@
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="{{ .Permalink }}" class="px-4 py-5 bg-white shadow text-center d-block">
                 <i class="{{ .Params.Icon }} icon text-dark d-block mb-4"></i>
-                <h3 class="mb-3" style="margin: 0 !important;">{{split "English > tag2tag3" " > " }}</h3>
-                <!-- <h3 class="mb-3" style="margin: 0 !important;">{{ strings.TrimLeft " > " "Front Matter > Help" }}</h3> -->
+                <h3 class="mb-3" style="margin: 0 !important;">{{ split .Title " > " }}</h3>
                 <!-- <p class="mb-0">{{ .Params.Description }}</p> -->
               </a>
             </div>
