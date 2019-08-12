@@ -52,23 +52,43 @@
         <div class="col-lg-3">
           <div class="mb-5 bg-white p-4 sticky-top">
             <a href="{{ .Permalink }}">
-              <h4 class="mb-4">{{ .Title }}</h4>
+
+                {{ "<!-- Javascript -->" | safeHTML }}
+                <script>
+                  $(function() {
+                    var fruits = {{ split .Title " > " }};
+                    var citrus = fruits.slice(1);
+                    document.getElementsByClassName("{{ .Title }}").innerHTML = citrus;
+                  });
+                </script>
+
+              <h4 class="{{ .Title }}" class="mb-4"></h4>
             </a>
             <ul class="list-styled">
               {{ range .Data.Pages }}
-              <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+
+              {{ "<!-- Javascript -->" | safeHTML }}
+                <script>
+                  $(function() {
+                    var fruits = {{ split .Title " > " }};
+                    var citrus = fruits.slice(1);
+                    document.getElementsByClassName("{{ .Title }}").innerHTML = citrus;
+                  });
+                </script>
+
+              <li><a class="{{ .Title }}" href="{{ .Permalink }}"></a></li>
               {{ end }}
             </ul>
           </div>
         </div>
         <div class="col-lg-9">
           <div class="p-5 bg-white">
-              <h2>{{ .Title }}</h2>
+              <h2 class="{{ .Title }}"></h2>
               <div class="bg-gray p-4">
                   <!-- <h3 class="mt-0">{{if .Language.Params.articlesLabel }} {{ .Language.Params.articlesLabel }} {{ else }} "Articles" {{ end }}</h3> -->
                   <ul class="list-unstyled">
                     {{ range .Data.Pages }}
-                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    <li><a class="{{ .Title }}" href="{{ .Permalink }}"></a></li>
                     {{ end }}
                   </ul>
               </div>
