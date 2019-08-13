@@ -29,7 +29,7 @@
             {{ if in .Site.Params.menu_exclusion .Section }}
             {{- else -}}
               {{- safeHTML .Params.head -}}
-            <li class="{{ if .IsAncestor $currentNode }}parent d-block {{ end }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }} active {{ end }}{{ if .Params.alwaysopen }} parent {{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a>
+            <li class="{{ if .IsAncestor $currentNode }}parent d-block {{ end }}{{ if eq .File.UniqueID $currentNode.File.UniqueID }} active {{ end }}{{ if .Params.alwaysopen }} parent {{ end }}"><a href="{{ .Permalink }}">{{ index (split .Title " > ") 1 }}</a>
               {{- $numberOfPages := (add (len .Pages) (len .Sections)) -}}
               {{if ne $numberOfPages 0}}
               <ul class="{{ if .IsAncestor $currentNode }}sub-menu{{ end }}">
@@ -44,7 +44,7 @@
             {{- end -}}
             {{- else -}}
               {{- if not .Params.Hidden -}}
-              <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active{{ end }}"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+              <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active{{ end }}"><a href="{{ .Permalink }}">{{ index (split .Title " > ") 1 }}</a></li>
               {{- end -}}
             {{ end -}}
             {{ end }}
@@ -52,7 +52,7 @@
       </div>
       <div class="col-lg-9">
         <div class="p-5 bg-white">
-            <h2>{{ .Title }}</h2>
+            <h2>{{ index (split .Title " > ") 1 }}</h2>
             {{ .Content }}
             </br>
             <p class="post-meta border-bottom pb-3 mb-0">Updated on {{ .PublishDate.Format "02 Jan 2006" }}</p>
@@ -60,10 +60,10 @@
             <nav class="pagination mt-3">
             {{- template "pagination" dict "menu" .Site.Home "currentnode" $currentNode "menu_exclusion" .Site.Params.menu_exclusion -}}
             {{- with ($.Scratch.Get "prevPage") -}}
-            <a class="nav nav-prev" href="{{ .Permalink }}" title="{{ .Title }}"><i class="ti-arrow-left mr-2"></i>{{ .Title }}</a>
+            <a class="nav nav-prev" href="{{ .Permalink }}" title="{{ index (split .Title " > ") 1 }}"><i class="ti-arrow-left mr-2"></i>{{ index (split .Title " > ") 1 }}</a>
             {{ end -}}
             {{- with ($.Scratch.Get "nextPage") -}}
-            <a class="nav nav-next" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}<i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="{{ .Permalink }}" title="{{ index (split .Title " > ") 1 }}">{{ index (split .Title " > ") 1 }}<i class="ti-arrow-right ml-2"></i></a>
             {{- end }}
             </nav>
     
