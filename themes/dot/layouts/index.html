@@ -17,7 +17,7 @@
                 <script>
                   $(function() {
                     var label = {{ split .Title " > " }};
-                    var title = fruits.slice(1);
+                    var title = label.slice(1);
                     document.getElementById("{{ .Title }}").innerHTML = title;
                   });
                 </script>
