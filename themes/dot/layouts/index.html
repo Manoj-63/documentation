@@ -16,8 +16,7 @@
                 {{ "<!-- Javascript -->" | safeHTML }}
                 <script>
                   $(function() {
-                    var label = {{ split .Title " > " }};
-                    var title = label.slice(1);
+                    var title = {{ .Title }}.substring({{ .Title }}.indexOf(":")+1);
                     document.getElementById("{{ .Title }}").innerHTML = title;
                   });
                 </script>
