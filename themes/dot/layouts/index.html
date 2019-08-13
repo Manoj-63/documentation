@@ -18,7 +18,7 @@
                   $(function() {
                     var title = {{ .Title }}.substring({{ .Title }}.indexOf(">")+1);
                     document.getElementById("{{ .Title }}").innerHTML = title;
-                    console.log(strings.Index({{ .Title }}, ">"));
+                    console.log({{split "FrontMatter > FAQ" " > " }});
                   });
                 </script>
 
