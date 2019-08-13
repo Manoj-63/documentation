@@ -3,7 +3,7 @@ language: en
 title: English - 2  > What is local and cloud monitor?
 date: 2019-08-08T12:57:32.363Z
 author: Manoj
-weight: 2
+weight: 3
 ---
 Distill offers browser extensions and the  [Web App](https://distill.io/inbox "https://distill.io/inbox")  as devices to run checks for changes. Monitors added to a browser extension are checked for changes using the “local” computer. They are called local monitors. Browser should be kept open for local monitors to be up and running.
 
