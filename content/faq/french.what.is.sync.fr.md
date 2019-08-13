@@ -1,6 +1,6 @@
 ---
 language: fr
-title: French > What is sync?
+title: French - 1 > What is sync?
 date: 2019-08-07T10:57:34.687Z
 author: Raksha
 weight: 1
