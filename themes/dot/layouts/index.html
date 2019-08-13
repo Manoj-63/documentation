@@ -12,17 +12,7 @@
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="{{ .Permalink }}" class="px-4 py-5 bg-white shadow text-center d-block">
                 <i class="{{ .Params.Icon }} icon text-dark d-block mb-4"></i>
-                
-                {{ "<!-- Javascript -->" | safeHTML }}
-                <script>
-                  $(function() {
-                    var title = {{ .Title }}.substring({{ .Title }}.indexOf(">")+1);
-                    document.getElementById("{{ .Title }}").innerHTML = title;
-                    console.log({{split .Title " > " }}[1]);
-                  });
-                </script>
-
-                <h3 id="{{ .Title }}" class="mb-3" style="margin: 0 !important;"></h3>
+                <h3 class="mb-3" style="margin: 0 !important;">{{split .Title " > " }}[1]</h3>
                 <!-- <p class="mb-0">{{ .Params.Description }}</p> -->
               </a>
             </div>
