@@ -1,6 +1,6 @@
 ---
 language: en
-title: English - 2  > What is local and cloud monitor?
+title: En - 2  > What is local and cloud monitor?
 date: 2019-08-08T12:57:32.363Z
 author: Manoj
 weight: 3
